@@ -15,7 +15,7 @@ module.exports = {
   }, 
   plugins: [
       new HtmlWebpackPlugin({
-          title: "hexagon-map",
+          title: "react-redux-example",
           template: "./src/index.html"
       }),
       new webpack.HotModuleReplacementPlugin()
