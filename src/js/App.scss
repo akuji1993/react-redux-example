@@ -1,0 +1,18 @@
+.app {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 100%; 
+
+    .item {
+        flex: 0 1 100%; 
+        background: black; 
+        color: white; 
+        padding: 20px;
+        margin-bottom: 10px;  
+
+        &:hover { 
+            background: rgba(black, 0.7); 
+            cursor: pointer; 
+        }
+    }
+}
